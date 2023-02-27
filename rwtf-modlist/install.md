@@ -12,7 +12,7 @@ You will need to have [Wabbajack](https://www.wabbajack.org/) installed.
 
 You will also need to download the wabbajack info file for this modlist for wabbajack to use:
 
-[RWTF wabbajack file](https://github.com/...)
+[RWTF wabbajack file](./wabbajack/Requiem-WTF.wabbajack)
 
 
 ## Paid AE Update CC Content
@@ -49,8 +49,7 @@ Post-Game-Start Steps, new game:
 
 1. Do requiem install and let it finish (open & close inventory menu)
 
-1. OPTIONAL: If using Spell Research: Go to MCM > Spell Research > Options > Import Spells. Let it run (lengthy) until you get final confirmation.
-The pell import process is largely invisible, with just occasional message text. It's not done until you see the "Spell Research: All Spells Imported  <OK>" dialog! Be patient.
+1. OPTIONAL: If using Spell Research: import spells now
 
 1. Use MCM to set mod options you care about (see below for suggestions)  
 

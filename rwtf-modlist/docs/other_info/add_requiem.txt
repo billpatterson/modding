@@ -167,18 +167,3 @@ Leave "Requiem for the Indifferent.esp" at bottom of plugins list.
 
 
 
-
-HUD
-
-Tried Less Intrusive Hud, iHUD. Both had big blobby compass even when used together. Bad.
-
-+ SkyHUD
-+ Patch - SkyHUD
-+ SkyHUD Versitile Preset
-+ MoreHUD - Versitile Preset
-Put in User Interface section in MO2 (mods and .esp's)
-Presets from "Paramount - Versatile HUD Presets for SkyHUD and moreHUD" in nexus.
-Note that SkyHUD config is by editing text file. 
-Minimal hud, remove these 4 mods to reset to vanilla and do your own. 
-
-

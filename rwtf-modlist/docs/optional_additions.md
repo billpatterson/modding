@@ -60,7 +60,7 @@ Add the folling mods to "RWTF - spell research" section:
 + Patch for enhanced Graphics for SR experience book
 + Spell Research Patch Compendium Redux Loose Version
 
-Add the folling mods with other requeim patches:  
+Add the following mods with other requeim patches:  
 + Spell Research - Requiem 5 patch
 
 _Note:_
@@ -71,11 +71,21 @@ TODO: I'm building a custom patch to fix this, but it's not available yet.
 
 Note: 
 
-SR does not do any modifications to default spells system or spellbooks. 
+SR does not do any modifications to default spells system or spellbooks. You can buy spellbooks and learn spells if you want, bypassing the Spell Research spell learning process.
 
-It can therefore be ignored completely, and player can just buy spellbooks as usual. The only effect is that you'll see some SR-related loot and items for sale ("Ancient Tome", etc).
+SR can therefore be ignored completely, if you like, and player can just buy spellbooks as usual. The only effect is that you'll see some SR-related loot and items for sale ("Ancient Tome", etc).
 
-There is a mod for "make spell books just show SR archetypes rather than teaching spell." If you want to use this, you will have to patch HEAVILY for Requiem compatibilty.
+There is a mod for "make spell books just show SR archetypes rather than teaching spell." If you want to use this, you will have to patch HEAVILY for Requiem compatibilty. Not to be undertaken lightly...
+
+_In Game_:
+
+When you start a new game, you must manually trigger spell import. Do this in the Alternate Start "mara statue room" when game starts, after initiating requiem install:
+
+Go to MCM > Spell Research > Options > Import Spells
+
+Let it run (lengthy) until you get final confirmation.
+
+The pell import process is largely invisible, with just occasional message text. It's not done until you see the "Spell Research: All Spells Imported  <OK>" dialog! Be patient.
 
 
 ## Book Covers of Skyrim

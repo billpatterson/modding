@@ -1,9 +1,9 @@
 
 # Requiem - Where's The Fire? 
 
-## Wabbajack
-
 This is a [Wabbajack](https://www.wabbajack.org/) modlist, and you need to use wabbajack to install it. 
+
+This modlist is focused on [Requiem 5.3 "Around The Fire"](https://www.nexusmods.com/skyrimspecialedition/mods/60888) release, and is intended to be "Requiem with minimal other gameplay changes."
 
 
 ## Who is this modlist for?
@@ -23,7 +23,7 @@ Obviously, if your main intent is not "I want to play Requiem" then this is prob
 
 ## What's in this modlist?
 
-This modlist started from the wabbajack modlist [Animonculory Visual Overhaul] (https://github.com/The-Animonculory/Animonculory-Visual-Overhaul) version 3.2
+This modlist started from the wabbajack modlist [Animonculory Visual Overhaul](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul) version 3.2
 
 That modlist is the starting point, with extensive edits, deletions and reworking to produce a "visuals only" shell.
 
