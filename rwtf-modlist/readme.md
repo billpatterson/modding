@@ -12,9 +12,7 @@ This modlist is focused on [Requiem 5.3 "Around The Fire"](https://www.nexusmods
 
 [What's not in this modlist?](#whats-not-included)
 
-[Requiem version](#requiem-version)
-
-[Skyrim version](#skyrim-version)
+[Requirements](#requirements)
 
 [Installation](#installation)
 
@@ -44,7 +42,7 @@ That was then further modified by adding Requiem and a few common supporting mod
 
 Notable mods from AVO:
 
-- Many, many texture / mesh improvment mods to make visuals look better
+- Many, many texture / mesh improvement mods to make visuals look better
 - SKSE, bug fixes, unofficial patches for base game, scripting resources, etc
 - More HUD / SkyHUD / Infinity UI
 - Nemesis animations system
@@ -60,6 +58,8 @@ Notable additions:
 
 Note that this modlist is distinct from AVO, and maintained separately. Changes to AVO will not affect this modlist, and any such changes will likely not be migrated into this modlist. 
 
+Mods included: [full list](https://loadorderlibrary.com/lists/requiem-wtf)
+
 
 ## What's _NOT_ included? 
 
@@ -72,7 +72,20 @@ Note that this modlist is distinct from AVO, and maintained separately. Changes 
 These types of things are not included because (a) not every requiem player will want them, (b) for players who do, there's no single "right" choice from many alternatives, and (c) including them will likely create conflicts (needing patches) for players who want to add other mods.
 
 
-## Requiem version
+## Requirements
+
+[Wabbajack](https://www.wabbajack.org/) to install it.
+
+_PC specs:_
+
+Modlist is intended to be played on "ok" PC's. There's no ENB, no heavy scripting, etc.
+
+I run it at 4k resolution without problems on this PC:
+CPU: AMD Ryzen 5 5600
+GPU: Nvidia GTX 1660 ti
+
+
+### Requiem version compatibility
 
 This modlist was built with Requiem 5.3.1 "Around the Fire"
 
@@ -81,13 +94,14 @@ This modlist was built with Requiem 5.3.1 "Around the Fire"
 Later requiem releases may or may not be compatible without updates. 
 
 
-## Skyrim version
+### Skyrim version compatibility
 
 This modlist was built to run on SkyrimSE.exe version 1.6.640.0  
 This modlist assumes you have the Anniversary Edition, the free "everyone gets it" update.  
 It does not assume/use the PAID Anniversary Edition upgrade, which adds many more Creation Club items.   
 
 If the skyrim exe version changes, it will likely break the SKSE version included in this modlist.
+
 
 ## Installation
 
