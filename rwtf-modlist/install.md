@@ -105,7 +105,7 @@ There is nothing more you _need_ to do, but you are free to continue on with add
 
 If you do start adding  your own mods, you are strongly encouraged to read and understand the install directions, compatibilty notes, etc for requiem:
 
-[Requiem Wiki]https://github.com/ProbablyManuel/requiem/wiki
+[Requiem Wiki](https://github.com/ProbablyManuel/requiem/wiki
 
 [Nexusmods Requiem](https://www.nexusmods.com/skyrimspecialedition/mods/60888)
 
