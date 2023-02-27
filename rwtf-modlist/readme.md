@@ -108,5 +108,3 @@ If you're interested in all the ugly details about how this modlist was created,
 [Altering AVO](./docs/other_info/edit_AVO.txt)
 
 [Adding Requiem](./docs/other_info/add_requiem.txt)
-
-[Full modlist](FIXME) on LoadOrderLibrary.com

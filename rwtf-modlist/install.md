@@ -12,7 +12,7 @@ You will need to have [Wabbajack](https://www.wabbajack.org/) installed.
 
 You will also need to download the wabbajack info file for this modlist for wabbajack to use:
 
-[RWTF wabbajack file](./wabbajack/Requiem-WTF.wabbajack)
+[RWTF wabbajack file](https://github.com/billpatterson/modding/blob/main/rwtf-modlist/wabbajack/)
 
 
 ## Paid AE Update CC Content
