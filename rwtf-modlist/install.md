@@ -12,7 +12,9 @@ You will need to have [Wabbajack](https://www.wabbajack.org/) installed.
 
 You will also need to download the wabbajack info file for this modlist for wabbajack to use:
 
-[RWTF wabbajack file](https://github.com/billpatterson/modding/blob/main/rwtf-modlist/wabbajack/)
+[RWTF wabbajack file](https://github.com/billpatterson/modding/blob/main/rwtf-modlist/wabbajack/RWTF_wabbajack.7z)
+
+Download that file and unzip it. It contains the "wabbajack info file" you need to feed into Wabbajack to tell it what to install. 
 
 
 ## Paid AE Update CC Content
@@ -26,7 +28,10 @@ You can remove the extra content in Steam by going to DLC section and un-checkin
 
 ## Install using Wabbajack
 
-- Run wabbajack, choose "Install from Disk"
+Locate the "Requiem-WTF.wabbajack" file.
+
+Run wabbajack, then...
+- choose "Install from Disk"
 - Target Modlist: choose the RWTF wabbajack info file you downloaded
 - Modlist Install Location: pick whatever directory you want
 - Resource Download Location: pick a directory, or leave the default value
