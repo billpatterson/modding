@@ -12,9 +12,9 @@ This modlist is focused on [Requiem 5.3 "Around The Fire"](https://www.nexusmods
 
 [What's in this modlist?](#whats-not-included)
 
-[Requiem version]{#requiem-version)
+[Requiem version](#requiem-version)
 
-[Skyrim version]{#skyrim-version)
+[Skyrim version](#skyrim-version)
 
 [Installation](#installation)
 
