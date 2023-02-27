@@ -10,7 +10,7 @@ This modlist is focused on [Requiem 5.3 "Around The Fire"](https://www.nexusmods
 
 [What's in this modlist?](#whats-in-this-modlist)
 
-[What's in this modlist?](#whats-not-included)
+[What's not in this modlist?](#whats-not-included)
 
 [Requiem version](#requiem-version)
 
