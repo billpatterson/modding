@@ -1,7 +1,7 @@
 
 # RWTF Installation
 
-See See [main readme](readme3.md) for general information about this modlist.
+See See [main readme](readme.md) for general information about this modlist.
 
 
 ## Wabbajack
