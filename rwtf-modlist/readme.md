@@ -6,6 +6,19 @@ This is a [Wabbajack](https://www.wabbajack.org/) modlist, and you need to use w
 This modlist is focused on [Requiem 5.3 "Around The Fire"](https://www.nexusmods.com/skyrimspecialedition/mods/60888) release, and is intended to be "Requiem with minimal other gameplay changes."
 
 
+[Who is this modlist for?](#who-is-this-modlist-for)
+
+[What's in this modlist?](#whats-in-this-modlist)
+
+[What's in this modlist?](#whats-not-included)
+
+[Requiem version]{#requiem-version)
+
+[Skyrim version]{#skyrim-version)
+
+[Installation](#installation)
+
+
 ## Who is this modlist for?
 
 Two groups of people: 
