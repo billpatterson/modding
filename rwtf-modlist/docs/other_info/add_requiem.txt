@@ -1,0 +1,184 @@
+
+This document details changes made to install requiem into heavily modified shell of AVO.
+
+This information is "in case you're interested" only, and is not required reading. This is information about how the modlist was assembled, and can be completely ignored if you just want to install and use the modlist.
+
+
+Requiem Version: 
+This modlist was built with Requiem 5.3.1
+Later requiem releases may or may not be compatible without updates. 
+
+Skyrim version:
+This modlist was built to run on SkyrimSE.exe version 1.6.640.0
+This modlist assumes you have the Anniversary Edition, the free "everyone gets it" update.
+It does not assume/use the PAID Anniversary Edition upgrade, which adds many more Creation Club items. 
+
+If the skyrim exe version changes, it will likely break the SKSE version included in this modlist.
+
+
+Notation in this doc:
++ <mod name> 
+means "add this mod in the noted section of Mod Organizer's mod list."
+
+
+=== Requiem ===
+
+In MO2, create new separator "RWTF - requiem" above "finishing line output" section
++ Requiem
++ Requiem - dragonborn patch
++ Requiem - Fozars Dragonborn 5.2.0 Fixes
+
+
+=== Requiem Tweaks ===
+
+Add in "+ Requiem" section in MO2, below Requiem:
++ Requiem - Resist and Regen Tweak (Requiem - Noxcrab's Tweaks in Nexusmods)
++ Requiem - Small Tweaks SE mods: Knockdown Tweak
+
+Note: other Small Tweaks mods make more intense changes not all players may like, and NPC Tweaks in particular may cause conflicts with other mods that modify the College vendors, some enemies, etc.
+
+Custom patch: Horse Saddle_newDefaults
+  Custom made to change default saddle for Solitude white horse. 
+
+Note, 3Tweaks/etc:  
+  Had to remove due to issues, e.g. "invisible vigilant body" that seems to be caused by Skyrim AE changes, etc.
+  Should be compatible if you want to install it.
+  Compatibility note: patch for sound mods this modlist uses:
+    + AOS and ISC - FTweaks Patch (from FTweaks mod page in nexus)
+    Put this in Requiem section
+
+
+=== Creation Club ===
+
+Add to top of "RWTF - Requiem" section:
++ Saints and Seducers Begone
++ Survival Mode Prompt Removed  ("permanently disable" version)
+
+Discussion:
+
+Requiem 5.3.1 includes FMOD installer option for Creation Club, but that requires ALL of the AE paid updated CC content (not just the 4 free AE version content items).
+
+Also, the creation club content aspect of Requiem is "in progress", not "fully supported". 
+
+Therefore, this modlist tries, as much as possible, to pretend CC content from Skyrim AE update doesn't exist. The content is turned off, disabled, blocked, etc wherever easily possible. 
+
+In particular, Survival Mode is NOT integrated/usable/compatible out of the box. If you want to add support for it, you're on your own. Other CC content has (only) whatever compatibility is provided by Requiem.
+
+If/when the base Requiem mod says "CC content is now fully integrated" I'll revisit this.
+
+Note, "Survival Mode": 
+Base AVO modlist contains a mod: "Survival Mode Improved - SKSE"
+That was removed, as it has three bad side effects for requiem game:
+ (a) survival mode always on by default
+ (b) supresses skyrim "do you want SM on?" prompt
+ (c) causes "carry weight max changes to zero" effect on entering skyrim worldspace (because Surivial Mode is on). 
+Issue(c) is fixable by waiting for Unbound quest to complete, at which point Skyrim AE adds a setting at Settings > Gameplay > Survival Mode that you can use. 
+Instead, the above reference "Survival Mode Prompt Removed" mod is used.
+That keeps surival mode prompt from appearing, leaves survival mode off. 
+
+
+=== Alternate Start ===
+
++ Alternate Start
++ New Beginnings - Live Another Life Extension SSE
+Place above Requiem (plugins above Requiem.esp) in MO2
+
+Disable AVO-AE item "optional quick start" :
+- Uncheck/disable "Optional Quick Start - SE" mod in MO2 modlist
+(left in until now, to facilitate testing during AVO editing process)
+
+
+=== Sounds ===
+
+Add new section in MO2, "RWTF - sounds"
+Put between Mesh Fixes and User Interface sections
+
++ Audio overhaul skyrim 4.0.1
+  Includes patches for True Storms, Enhanced Blood Textures
++ Immersive sounds compendium
+  Lots of options, chose "slightly dialed back" options
++ Audio Overhaul Skyrim - Immersive Sounds Compendium Integration (1.1.0)
+Put these in sounds section
+Put the two AOS patch .esp's at top of Requiem section (so after other mods, before Requiem)
+
+Note: required Sound Record Distributor already included in AVO base
+      (do not remove that if removing AOS/ISC; needed for other AVO mods)
+Note: requiem patch central includes patch for this
+
+
+=== Misc ===
+
+Add new section in MO2, "RWTF - Misc"
+Put above "RWTF - Requiem" section
+
++ Take Notes - AE Version (Beta)
++ Accurate Realistic Fast Travel Time
+
+
+== OPTIONAL: Misc ===
+
+Other choices I like, not installed but tested with this modlist:
+
++ Honed metal AE
+Put at top of Requiem group in MO2
++ Dynamic Things Alternative - Base Object Swapper
+Put in Fixes section in MO2
++ Simple Horse Whistle
+Put above Live Another Life (for lack of better place)
++ Fog Mesh Remover
+Put at very bottom (overwrites only retextures from "Little Things", safe to remove)
++ Magic Sneak Attacks
+Put with Honed Metal, Alt Start, etc
++ Requiem - Magic Sneak Attacks
+Put with Requiem patches
++ No kill cams
+
+
+=== OPTIONAL: College Overhaul ===
+Other choices I like, not installed but tested with this modlist:
+
++ Magical college of Winterhold
+Put above requiem with Hone Metal, though does not cause conflicts with requiem.
+
+Note: had tried: Immersive College of Winterhold. Removed. Didn't like door auto-colsing (exacerbates "find person X" problem), and it edited vendor chests of college NPC's which requiem also does, causing conflict.
+
+
+=== Requiem Patch Central ===
+
+In nexusmods.com, there are TWO "requiem patch central" mods. You only want ONE of them: 
+  https://www.nexusmods.com/skyrimspecialedition/mods/64410
+The other may have something you want if you're extending this modlist, but isn't included. 
+
++ Requiem Patch Central
+Put patch .esp's at bottom of requiem section in MO2.
+In base install described in this document, patches are included for:
+ - Audio Overhaul and Immersive Sounds
+
+
+
+=== Reqtificator ===
+
+Configure reqtificator in MO2 applications list as described in requiem install directions.
+Note: "start in" parameter should be "<root of your AVO-AE install>\Game Root\Data", NOT steam applications folder.
+
+Run reqtificator.
+Activate "Requiem for the Indifferent.esp" in plugins list.
+Leave "Requiem for the Indifferent.esp" at bottom of plugins list. 
+
+
+
+
+HUD
+
+Tried Less Intrusive Hud, iHUD. Both had big blobby compass even when used together. Bad.
+
++ SkyHUD
++ Patch - SkyHUD
++ SkyHUD Versitile Preset
++ MoreHUD - Versitile Preset
+Put in User Interface section in MO2 (mods and .esp's)
+Presets from "Paramount - Versatile HUD Presets for SkyHUD and moreHUD" in nexus.
+Note that SkyHUD config is by editing text file. 
+Minimal hud, remove these 4 mods to reset to vanilla and do your own. 
+
+

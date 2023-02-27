@@ -18,6 +18,8 @@ The main purpose of this mod is to provide a "just requiem, but in a nice-lookin
 
 The secondary purpose of this mod is to provide a platform for people to add their own requiem-compatible mods as extensions. An effort has been made to make sure that the base modset here allows allows other mods to be installed on top without causing widespread conflicts that need to be patched.
 
+Obviously, if your main intent is not "I want to play Requiem" then this is probably not a modlist you want!
+
 
 ## What's in this modlist?
 
@@ -74,17 +76,10 @@ It does not assume/use the PAID Anniversary Edition upgrade, which adds many mor
 
 If the skyrim exe version changes, it will likely break the SKSE version included in this modlist.
 
-## How to Install
+## Installation
 
-You will need to have [Wabbajack](https://www.wabbajack.org/) installed. 
+See [installation instructions](install.md).
 
-You will also need to download the "wabbajack file" (the instructions for this modlist) for wabbajack to use:
-
-[RWTF wabbajack file](https://github.com/...)
-
-Run wabbajack, choose "install from file", and choose the RWTF wabbajack file. 
-
-Once that finishes, run ModOrganizer.exe in the install directory, choose "SKSE" from the list next to the Run button in the upper right, and click Run.
 
 ## Support / Questions
 
@@ -94,6 +89,24 @@ This is a first release, and may contain bugs or issues.
 
 You're welcome to post questions to [skyrimrequiem](https://www.reddit.com/r/skyrimrequiem/) reddit group, or to DM user AHostOfIssues there. 
 
-You're also welcome to post issues in the [GitHub project](https://github.com/billpatterson/modding/rwtf-modlist)
+You're also welcome to post issues in the [GitHub project](https://github.com/billpatterson/modding/tree/main/rwtf-modlist)
 
 
+## External 
+
+This modlist needs a couple of generated-content files (textures, LOD's, etc) placed where Wabbajack can find them. 
+
+They are hosted on Nexusmods [here](https://www.nexusmods.com/skyrimspecialedition/mods/85928/)
+
+You don't need to download them, Wabbajack will pull them during install. 
+
+
+## Ugly Details
+
+If you're interested in all the ugly details about how this modlist was created, starting from AVO, I've included some of my personal notes:
+
+[Altering AVO](./docs/other_info/edit_AVO.txt)
+
+[Adding Requiem](./docs/other_info/add_requiem.txt)
+
+[Full modlist](FIXME) on LoadOrderLibrary.com

@@ -1,0 +1,362 @@
+
+
+Modifying AVO modlist and modifying it to be new base for Requeim-WTF
+---------------------------------------------------------------------
+
+Use Wabbajack to install modlist AVO.
+
+Create a separate portable install of Mod Organizer (v2.4.4)
+Copy over profiles, set profile name you want, remove others, etc (not detailed here)
+Copy over Plugins:
+  crashlogtools
+  rootbuilder
+Copy over Tools:
+  BethINIStandalone
+  CAO
+  DynDOLOD
+  SSEEdit4.0.4
+  xLODGen
+Copy over modOrganizer.ini and edit it to correct directory paths, etc
+  Not detailed here as it's situation dependent; see also: later in this doc about removing executable definitions, etc. 
+
+
+Open Mod Organizer in your new instance, and start uninstalling mods as detailed below.
+(and deleting the corresponding download from MO dowloads/ folder)
+
+Note:
+Mods are removed from the AVO set for many reasons: 
+- using/being-about Creation Club (not supported by requiem)
+- having conflicts with Requeim (any, even tiny ones; minimize patching)
+- making opinionated gameplay changes (vs. just visual changes)
+- causing patch requirements if more mods added (let people extend without patching where possible)
+- being a dependency in custom AVO patch (removing use of AVO custom patches completely)
+- missing texture errors in LodGen, or any other issue
+- being ENB-focused additions (replaced with non-enb versions where possible)
+- being a one-off custom alteration mod (maintainance concerns, if mod is never updated again)
+- doing one small, displensible thing and incidentally creating any kind of issue/conflict/concern of any kind
+- requiring external tools/patchers/etc that complicate ability to do custom post-install extensions
+- anything making "everyone either wants this change or can live with it" decisions where that assumption might not be true
+
+Note: 
+This modlilst is now disconnected completely from AVO source, even though all AVO custom work is published as public Nexus downloads.
+I don't use his patches, etc, and none of the Wabbajack config/setup/info is the same (and I don't have acces to that anyway). 
+Trying to keep mod in sync with AVO over time would be too big a job, so that's not planned.
+If you like, you can think of this modlist as a forked-then-severely-altered version of AVO as it existed in Feb 2023, and off on it's own now.
+
+Note: 
+AVO uses "section" separators in Mod Organizer.
+The following list refers to those sections using: "= <section title in mod organizer> =" 
+Example: "= Major Patches =", refers to first secton in MO. 
+The names are arbitrary, chosen by AVO author, kept as-is for easy comparisons with AVO source.
+	  
+= Major Patches =
+Creation Club Base Content - Items Rebalanced
+
+= SKE + DLL Mods =
+Encounter Zones Unlocked SE
+To Your Face SE
+
+= Essential functionality =
+Remember Lockpick Angle
+Classic Paralysis
+Enhanced Invisibility
+Whose quest is it anyway NG
+I'm walkin' here
+Mums the word NG
+
+= Fixes =
+(Hide quest items in container menu) - questionable, but left in
+Sharpen other swords II - Anim Object Swapper
+Pickpocket Reset
+Power of creation - Fishing
+Fishing - Voiced narrative
+bc036's Tweaks
+Less sniperlike NPCs
+Fish anywhere with water
+Soul-Cairn objects secured
+Survival mode vampires - health regen fix
+Saints and Secucers - Voiced Narrative
+Skunk's xVASyn Cleanup for Saints and Seducers - Voiced Narrative
+Tavern AI fix
+Modern clap bug fix
+Warewolf killcam remover
+Heimskr only preaches on weekends
+Horns are forever
+NPCs ain't hachikos
+Carriage drivers are alive SE
+Animals swim (sort of)
+Spider imbuing integration
+
+= Mesh Fixes =
+(no changes)
+
+= User Interface =
+Contextual Crosshair
+**SkyHUD
+**Inifinity UI
+Compass Navigation Overhaul
+Untarnished UI
+Memospore - UI sound effects
+Do not go gentle main menu replacer
+
+= Animations = 
+XP32 maximum Skeleton
+XP32 maximum skeleton lite
+TrueHud - HUD additions
+Let your hair down
+
+= Early Loaders =
+z Vanilla military camps
+
+= Visual Core =
+(no changes)
+
+= Landscape =
+Skyrim SE improved puddles  - remove ENB version
+  Replace with "Skyrim SE Improved Puddles FOMOD for Non-ENB users" optional file item
+
+= Trees =
+Rudy HQ falling leaves and needles  (is ENB version, and hard to justify having at all)
+
+= Plants =
+Cathedral - 3D thistle (makes thistle nearly impossible to visually find)
+(Cathedral 3D Deathbell) -- remove, as it's ENB version. Install non-enb version.
+Subtypes of snowberries
+Smaller cathedral 3d plants all in one
+Smaller cathedral 3d deathbell ENB light patch
+
+= Creatures =
+zzjay's Horse Overhaul
+
+= Architecture =
+= Dungeons =
+(no changes)
+
+= Dwemer =
+(Dwemer pipework reworked)  Remove, as it's ENB version. Reinstall as Dwemer Pipework reworked 4.
+
+= Settlements =
+Water In Wells  (generating warnings in DynDoLod processing)
+
+= Furniture & Clutter =
+(no changes)
+
+= Ingredients & Crafting =
+True Homecooked Meals
+
+= Food = 
+Unique stros m'kai rum
+
+= Small Items =
+(YASTM - yet another soul trap manager) -- left, questionable, but may want to replace
+
+= Quest Related =
+= Weapons and Armor =
+(no changes)
+
+= DLC Textures =
+Golden Saint Armory Revamped
+
+= Miscellaneous Visuals =
+BURP Spell Tomes
+BURP SpellTomes Patches
+Puddles - my hd version SE  (redundant)
+
+= Weather = 
+(no changes)
+
+= Visual FX =
+GORECAP
+Player Spell (and weapon) lighting
+
+= Character Visuals =
+Golden saint armory revamped - CBBE Patches
+BodySlide and Outfit Studio
+Nordic Feel - a realistic bodyslide preset
+
+= NPC Overhauls =
+Complete NPC overhaul
+
+= Late Loaders =
+Ambiance - a Vanilla+ Ambient Lighting Overhaul
+Atlas Map Markers SE - Updated with MCM
+Atlas Map Markers SE - Updated with MCM - Settings loader
+Worldspace Transition Tweaks (causing warning in DynDOLOd processing)
+
+= External Processing =
+Skyrim Upscaler
+
+= Finishing Line Output =
+AVO - Patches  [examined .esp set, none of them now needed/important]
+AVO - Bodyslide [too complicated for me to leave in]
+AVO - Synthesis [nothing important given massive mod deletions generally]
+
+= Move To Position =
+NVT ENB
+Remove installed-but-not-activated GOG-versions of mods:
+  Storm Lightning for SSE and VR (Minty Lightning 2019) [GOG]
+  JContainers SE [GOG]
+  PapyrusUtil SE - Modders Scripting Utility Functions [GOG]
+  To Your Face SE - AE - VR [GOG]
+
+
+Note: mods that are CC "patches" but are left in anyway:
+  Both are textures/meshes only so no added compatibility issues re: requiem + CC content
+    Mod "01 - Saint and Seducers - Patch" is for mod "Butterfly Improved by zzjay - SE"
+    Mod "Saints and Seducers-58120" is part of "Anniversary Edition and Creation Club - Everything Upscaled"
+
+
+---------------------
+MO Instance Changes
+---------------------
+
+Remove MO plugin: 
+  Delete download for Curation Club
+  Remove MO's plugins/CreationClub/ directory
+Remove MO tool:
+  Remove download for Synthesis 
+  Remove MO's tools/Synthesis/ directory
+  Remove from MO executables list
+Remove MO tool:
+  Remove download for Bodyslide 
+  Remove from MO executables list
+Remove MO tool: 
+  Remove download for "ACMOS Road Generator"
+  Remove MO tools/ACMOS/ directory
+Remove MO executables:
+  Remove all 'GOG' versions
+  Remove '[Steam]' from all names (now just clutter, as there's no GOG versions)    
+
+
+---------------------
+Clean Downloads   
+---------------------
+In downloads directory, remove all good-old-games (GOG) files:
+  Skyrim Special Edition GOG and Epic Games Support - Mod Organizer 2.4.x   PapyrusUtil GOG - Scripting Utility Functions
+  Fuz Ro D'oh (GOG Edition)
+  RaceMenu Anniversary Edition v0-4-19-14 GOG
+  Skyrim Script Extender (SKSE64)-30379-2-2-3-1665515406
+    This is the GOG version, not needed. Leave Skyrim Script Extender (SKSE64)-30379-2-2-3-1665515370
+In downloads directory, remove all enb files:
+  ENB Helper Plus
+  ENB Helper SE
+  ENB Input Disablr
+  Enbseries_skyrimse
+  Skyrim Particle Patch for ENB - Assorted Mesh Fixes - Solitude mesh fixes patch
+  B. Natural View Tamriel (NVT) ENB for Rustic V3.4b-11203-3-4b-1544987756
+  
+  
+---------------------
+Textures/DynDOLOD
+---------------------
+Must replace AVO generated texture/LOD files, as they're no longer valid.
+Running game with AVO's files will cause random crashes as you move around world.
+AVO files come from:
+  https://www.nexusmods.com/skyrimspecialedition/mods/62561)
+  file: "AVO - Genned Outputs"
+  Also contains "AVO - Nemesis" file, which we DO need, so don't delete from downloads.
+
+Uninstall mods:
+  AVO - xLodGen
+  AVO - TexGen
+  AVO - DynDOLOD
+  
+
+https://www.reddit.com/r/skyrimmods/comments/t50dg5/looking_for_a_guide_for_xlodgen/
+<quote>
+If you're going to run xLODGen, the official suggested order is:
+Run xLODGen first for Terrain only and enable.
+Then run TexGen and enable.
+Then DynDOLOD and enable.
+Then run XLODGen again for Occlusion and enable (DynDOLOD can generate Occlusion, but xLODGen does it better).
+</Q>
+
+xLODGen textures/meshes:
+Prepare:
+  Download xLODGenResource - SSE Terrain Tamriel
+   https://www.nexusmods.com/skyrimspecialedition/mods/54680
+  Put in "Master Files" section, put .esm just after "Unofficial" patches
+  "Plugin needs to be active only while generating terrain LOD and should be removed or disabled afterwards." 
+Run tools\xLODGen\xLODGenx64.exe (in MO2)
+  Create output folder C:\skyrim\tool_output\xLODGen
+  Adjust executable in MO, change output directory in arguments setting fo xLoDGenx64:
+    -sse -o:"C:\skyrim\tool_output\xLODGen"
+  Run, set options:
+    Yes: select all worldspaces
+	Set to do Terrain LOD only:
+		No: Objects LOD
+		No: Trees LOD
+		Yes: Terrain LOD
+		  Leave all settings at default, except:
+			as in: https://lexyslotd.com/guide/finishing-line/#xlodgen (3/4 down)
+		No: Occlusion
+  Let run, takes about 10 min
+  Copy files in output folder to Overwrite, use MO to "create mod" from overwrite:
+     "RWTF - xLODGen terrain output"
+  Put that mod at bottom of "Finishing Line Output" section and activate it.
+  Zip mod directory as "RWTF - xLODGen terrain output.7z" and put in downloads folder.
+
+
+Note: AVO runs "ACMOS Road Gen" to paint roads on map texture here. Skip that complication. 
+
+
+TexGen textures/meshes:
+Run tools\DynDOLOD\TexGenx64.exe
+  tutorial at: https://www.youtube.com/watch?v=encZYHEeQrQ
+  Create output folder C:\skyrim\tool_output\TexGen
+  Run, set options:
+    "Select Output Path" : set to C:\skyrim\tool_output\TexGen
+    Leave all defaults
+  Let run, takes about 10 min
+  Copy files in output folder to Overwrite, use MO to "create mod" from overwrite:
+    "RWTF - TexGen Output"
+  Put that mod at bottom of "Finishing Line Output" section and activate it.
+  Zip mod directory as "RWTF - TexGen output.7z" and put in downloads folder.
+
+
+
+DynDoLod.esm, DynDoLod.esp:
+Prepare:
+  Remove/disable mod "xLODGenResource - SSE Terrain Tamriel" now if still installed. 
+Run tools\DynDOLOD\DynDOLODx64.exe
+  Create output folder C:\skyrim\tool_output\DynDOLOD
+  Run, set options:
+    Set output folder to C:\skyrim\tool_output\DynDOLOD
+	  (Unlabeled text entry box under Low/Medium/High buttons in upper right)
+	Click "Medium" button
+    Leave all defaults
+  Click OK button to run, let finish, takes around an hour or less
+  When done, choose "zip and exit"
+  Put file in downloads folder (so Wabbajack will be able to find it)
+  Use MO to install and activate
+	The .esm file goes LAST after all other .esm files
+    The .esp file goes LAST after all other .esp files (except occlusion.esp from next step...)
+
+Occlusion.esp:
+Prepare:
+  Reactivate mod "xLODGenResource - SSE Terrain Tamriel" 
+  (not sure if this is useful/necessary, honestly)
+Run tools\xLODGen\xLODGenx64.exe (in MO2)
+  Run, set options:
+    Yes: select all worldspaces
+	Set to do Occlusion LOD only:
+		No: Objects LOD
+		No: Trees LOD
+		No: Terrain LOD
+		Yes: Occlusion
+  Let run, takes about 10 min
+  Find output file Occlusion.esp in MO "overwrite" directory, rename:
+    "RWTF - xLODGen occlusion output.esp"
+  Use MO to "create mod" from overwrite:
+    "RWTF - xLODGen occlusion output"
+  Put that mod at bottom of "Finishing Line Output" section and activate it (below everything)
+  Zip mod directory as "RWTF - xLODGen occlusion output.7z" and put in downloads folder.
+  Remove/disable mod "xLODGenResource - SSE Terrain Tamriel" again.
+
+
+-------------------
+Next
+-------------------
+
+Add requiem. That's detailed in a separate document.
+
