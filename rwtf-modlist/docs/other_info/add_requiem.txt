@@ -132,11 +132,17 @@ Add new section in MO2, "RWTF - Misc" above requiem section
 Add in "RWTF - Misc" section in MO2:
 + Take Notes - AE Version (Beta)
 + Accurate Realistic Fast Travel Time
-+ Honed metal AE
++ Honed metal community AE patch
 + Honed metal revoiced
 
 Add at bottom of "Essential functionality" section in MO2:
 + Dynamic Things Alternative - Base Object Swapper
+
+
+Honed Metal note:
+Base mod has not been updated for latest SKSE verion, and game launch will fail.
+The "Honed Metal Community AE Patch" mod is a complete replacement.
+The community patch is "unofficial" and should be replaced with actual mod once that's updated.
 
 
 === Requiem Patch Central ===
