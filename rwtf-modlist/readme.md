@@ -18,6 +18,8 @@ This modlist is focused on [Requiem 5.3 "Around The Fire"](https://www.nexusmods
 
 [New game suggestions](#new-game-suggestions)
 
+[Removing optinal mods](#removing-optional-mods)
+
 
 ## Who is this modlist for?
 
@@ -63,7 +65,7 @@ Notable additions:
 - Take notes - journal of the dragonborn
 - Accurate Realistic Fast Travel Time
 - Dynamic Things Alternative
-
+- Immersive Equipment Displays
 
 Note that this modlist is distinct from AVO, and maintained separately. Changes to AVO will not affect this modlist, and any such changes will likely not be migrated into this modlist. 
 
@@ -128,6 +130,14 @@ See [new game setup](./docs/new_game_setup.md) for some suggestions.
 
 If you're an experienced Requiem/Alt-Start player you can ignore this.  
 
+
+## Removing Optional Mods
+
+Some of the mods included in the list are intended to be removed if you don't want them. 
+
+Removal is easy, and simply requires deactivating mods (no removing custom paches, etc)
+
+See [removing defaults](./docs/removing_defaults.md) for directions. 
 
 
 
