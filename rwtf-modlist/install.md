@@ -10,16 +10,16 @@ You will need to have [Wabbajack](https://www.wabbajack.org/) installed.
 
 ## Wabajack info file
 
-You will also need to download the wabbajack info file for this modlist for wabbajack to use:
+You will also need to download the wabbajack config file for this modlist for wabbajack to use:
 
 [RWTF wabbajack file](https://github.com/billpatterson/modding/blob/main/rwtf-modlist/wabbajack/RWTF_wabbajack.7z)
 
-Download that file and unzip it. It contains the "wabbajack info file" you need to feed into Wabbajack to tell it what to install. 
+Download that file and unzip it. It contains the _Requiem-WTF.wabbajack_ file you need to feed into Wabbajack to tell it what to install. 
 
 
 ## Paid AE Update CC Content
 
-It's assumed that the additional Creation Club items included in the **paid** Anniversary Edition update is not installed. (This means all the extra CC content that comes with the _paid_ AE update, not the four "everyone gets these for free" items included in general AE update.)
+This modlist does not use the additional Creation Club items included in the **paid** Anniversary Edition update. (This means all the extra CC content that comes with the _paid_ AE update, not the four "everyone gets these for free" items included in general AE update.)
 
 If you have this added CC content, and leave it active, you will have spam of non-reqtified problematic quests in game).
 
@@ -36,7 +36,9 @@ Run wabbajack, then...
 - Modlist Install Location: pick whatever directory you want
 - Resource Download Location: pick a directory, or leave the default value
 - Click the Run button 
- 
+
+Wait for wabbajack to download all needed mods (can take a while; a paid Nexusmods account is suggested for faster downloads; you can get for a few dollars a month and cancel any time).
+
 
 ## Finish 
 
@@ -45,6 +47,7 @@ The modlist is now installed and ready to play.
 Run ModOrganizer.exe in the install directory, choose "SKSE" from the list next to the Run button in the upper right, and click Run. See the _New Game - Do This_ section for steps to take to start a new game.
 
 The "reqtificator" has already been installed and run, the "requiem for the indifferent.esp" patch as been generated, etc. You don't need to follow the requiem install directions; it's been done for you. 
+
 
 ## New Game - Do This
 
@@ -105,7 +108,7 @@ There is nothing more you _need_ to do, but you are free to continue on with add
 
 If you do start adding  your own mods, you are strongly encouraged to read and understand the install directions, compatibilty notes, etc for requiem:
 
-[Requiem Wiki](https://github.com/ProbablyManuel/requiem/wiki
+[Requiem Wiki](https://github.com/ProbablyManuel/requiem/wiki)
 
 [Nexusmods Requiem](https://www.nexusmods.com/skyrimspecialedition/mods/60888)
 
