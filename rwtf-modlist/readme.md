@@ -80,9 +80,9 @@ _PC specs:_
 
 Modlist is intended to be played on "ok" PC's. There's no ENB, no heavy scripting, etc.
 
-I run it at 4k resolution without problems on this PC:
-CPU: AMD Ryzen 5 5600
-GPU: Nvidia GTX 1660 ti
+I run it at 4k resolution without problems on this PC:  
+CPU: AMD Ryzen 5 5600  
+GPU: Nvidia GTX 1660 ti  
 
 
 ### Requiem version compatibility
@@ -107,16 +107,6 @@ If the skyrim exe version changes, it will likely break the SKSE version include
 
 See [installation instructions](install.md).
 
-
-## Support / Questions
-
-This modlist, for now, is provided "as is" in the hope that it will be useful to someone. 
-
-This is a first release, and may contain bugs or issues. 
-
-You're welcome to post questions to [skyrimrequiem](https://www.reddit.com/r/skyrimrequiem/) reddit group, or to DM user AHostOfIssues there. 
-
-You're also welcome to post issues in the [GitHub project](https://github.com/billpatterson/modding/tree/main/rwtf-modlist)
 
 
 ## External 
