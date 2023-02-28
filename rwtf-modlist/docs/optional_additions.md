@@ -1,27 +1,34 @@
+
 # Optional Additions
 
-The mod's author uses several additional mods, and so these have been tested as "add ons" and confirmed to work with this modlist: 
+Several additional mods that have been tested as "add ons" and confirmed to work with this modlist.  
+
+(Things the modlist author adds post-install for use in personal setup.)
+
 
 ## Misc 
 
-Honed metal AE  
-Put in "RWTF - Misc" group in MO2
-
-Dynamic Things Alternative - Base Object Swapper  
-Put in Fixes section in MO2
-
-Fog Mesh Remover  
++ Fog Mesh Remover  
 Put at very bottom (overwrites only retextures from "Little Things", safe to remove mid-game)
 
-Magic Sneak Attacks  
++ Magic Sneak Attacks  
 Put with Honed Metal, Alt Start, etc
 
-Requiem - Magic Sneak Attacks  
++ Requiem - Magic Sneak Attacks  
 Put with Requiem patches
+
++ No kill cams  
+
+
+## College Overhaul
+
++ Magical college of Winterhold
+Put above requiem with Hone Metal, though does not cause conflicts with requiem.
+
+Note: had tried: Immersive College of Winterhold. Removed. Didn't like door auto-colsing (exacerbates "find person X" problem), and it edited vendor chests of college NPC's which requiem also does, causing conflict.
 
 
 ## Missives
-
 
 Add in "RWTF - Misc" section:
 + Missives (base mod)
@@ -36,13 +43,15 @@ Note: "witcher board" gets overwritten/ignored if not at bottom of missives addo
 Note: "Headhunter", "Requiem - RMB Patches - Headhunter - Missives"  
 Installing this popular companion to Missives caused obtaining quests from Steward & Inkeeper to behave oddly. Should be compatible, though, so experiment if you like. 
 
+Note: Carriage and Ferry Travel Overhaul mod causes conflict with Missives (carriage drivers as quest targets). There is a patch on nexusmods if you want to add CFTO.
+
 
 ## JK's Skyrim Exteriors
 
 + JK's Skyrim all in one  
 Place mod/.esp in the "Settlements" section in Mod Organizer
 
-+ Missive JK Skyrim  
++ Missive JK Skyrim  (patch Missives object placement into JK Skyrim)
 After missives base mod, before missive add-ons and patches
 
 

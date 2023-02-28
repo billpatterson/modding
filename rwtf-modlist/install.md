@@ -3,6 +3,7 @@
 
 See See [main readme](readme.md) for general information about this modlist.
 
+When the install is done, you 
 
 ## Wabbajack
 
@@ -48,58 +49,18 @@ Run ModOrganizer.exe in the install directory, choose "SKSE" from the list next 
 
 The "reqtificator" has already been installed and run, the "requiem for the indifferent.esp" patch as been generated, etc. You don't need to follow the requiem install directions; it's been done for you. 
 
+When you start a new game, you need to do some initialization for your character, and may want to make some in-game MCM settings changes. 
 
-## New Game - Do This
+See [new game setup](./docs/new_game_setup.md) for some suggestions. 
 
-Post-Game-Start Steps, new game:
-
-1. Let all mod MCM's get recognized and loaded - wait until you're not seeing new messages incoming.
-
-1. Do requiem install and let it finish (open & close inventory menu)
-
-1. OPTIONAL: If using Spell Research: import spells now
-
-1. Use MCM to set mod options you care about (see below for suggestions)  
-
-1. Save game
-
-1. Use mara statue to select start (stadard Alternate Start mod process)
+If you're an experienced Requiem/Alt-Start player you can ignore this.  
 
 
-## Suggested MCM settings
+## Removing Optional Mods
 
+A few mods included in the list are intended to be removed if you don't want them. 
 
-_Take Notes:_
-
-- Set open key to N
-- Set new entry to N
-
-_Requiem_: **Important**: 
-
-- Atmosphere > Cell respawn time: 365 (default is 30)
-
-_Requiem_: suggested:
-
-- Atmosphere > Timescale : 14  
-- Atmosphere > poisons without visuals  
-- Atmosphere > fast travel allowed  
-
-_SmoothCam_:  
-
-If the in-game camera "floats" too much for your liking, turn off or try changing settings to half default value:  
-- MCM > SmoothCam > Third Person > Interpolation > Min Follow Rate
-- MCM > SmoothCam > Third Person > Interpolation > Max Follow Rate.
-
-If that's still not enough, you can disable SmoothCam entirely.
-
-(SmoothCam can be jarring for people who have never used it, but is generally liked after allowing some time to adjust to it.)
-
-
-_Spell Research_:  
-
-If using _Spell Research_, hotkeys are often useful:
-- Spell Research > Options > enable hotkey > Home  
-- Spell Research Book Options > enable hotkey > End  
+See [removing defaults](./docs/removing_defaults.md) for (easy) directions. 
 
 
 ## Extending

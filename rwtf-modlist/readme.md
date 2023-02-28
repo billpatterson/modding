@@ -16,6 +16,8 @@ This modlist is focused on [Requiem 5.3 "Around The Fire"](https://www.nexusmods
 
 [Installation](#installation)
 
+[New game suggestions](#new-game-suggestions)
+
 
 ## Who is this modlist for?
 
@@ -49,12 +51,19 @@ Notable mods from AVO:
 - True directional movement
 - Rustic weathers
 - CBBE
+- SmoothCam
 
 Notable additions:
 
 - Requiem
 - Requiem dragonborn content patches
 - Alternate Start (Live Another Life)
+- Honed Metal
+- Audio overhaul / immersive sounds compendium
+- Take notes - journal of the dragonborn
+- Accurate Realistic Fast Travel Time
+- Dynamic Things Alternative
+
 
 Note that this modlist is distinct from AVO, and maintained separately. Changes to AVO will not affect this modlist, and any such changes will likely not be migrated into this modlist. 
 
@@ -85,7 +94,7 @@ CPU: AMD Ryzen 5 5600
 GPU: Nvidia GTX 1660 ti  
 
 
-### Requiem version compatibility
+### Requiem version
 
 This modlist was built with Requiem 5.3.1 "Around the Fire"
 
@@ -94,34 +103,43 @@ This modlist was built with Requiem 5.3.1 "Around the Fire"
 Later requiem releases may or may not be compatible without updates. 
 
 
-### Skyrim version compatibility
+### Skyrim version 
 
 This modlist was built to run on SkyrimSE.exe version 1.6.640.0  
+
 This modlist assumes you have the Anniversary Edition, the free "everyone gets it" update.  
+
 It does not assume/use the PAID Anniversary Edition upgrade, which adds many more Creation Club items.   
 
 If the skyrim exe version changes, it will likely break the SKSE version included in this modlist.
 
 
+
 ## Installation
 
-See [installation instructions](install.md).
+See [installation instructions](install.md) for instructions.
+
+
+## New Game Suggestions
+
+When you start a new game, you need to do some initialization for your character, and may want to make some in-game MCM settings changes. 
+
+See [new game setup](./docs/new_game_setup.md) for some suggestions. 
+
+If you're an experienced Requiem/Alt-Start player you can ignore this.  
 
 
 
-## External 
 
-This modlist needs a couple of generated-content files (textures, LOD's, etc) placed where Wabbajack can find them. 
+## Advanced Details
+
+This modlist needs a couple of generated-content files (textures, LOD's, etc) placed where Wabbajack can find them. You don't need to download them, Wabbajack will pull them during install.
 
 They are hosted on Nexusmods [here](https://www.nexusmods.com/skyrimspecialedition/mods/85928/)
-
-You don't need to download them, Wabbajack will pull them during install. 
-
-
-## Ugly Details
 
 If you're interested in all the ugly details about how this modlist was created, starting from AVO, I've included some of my personal notes:
 
 [Altering AVO](./docs/other_info/edit_AVO.txt)
 
 [Adding Requiem](./docs/other_info/add_requiem.txt)
+
