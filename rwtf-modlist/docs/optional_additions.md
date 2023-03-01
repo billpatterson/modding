@@ -60,38 +60,63 @@ Note: Carriage and Ferry Travel Overhaul mod has conflict with JK's Skyrim, but 
 
 ## Spell Research
 
+### Compatibility warning:
+Spell Research tends to produce "needs a patch" for _ANY_ mod related to magic/spells. If you plan to install magic overhauls, etc, be sure there's a compatibility patch before deciding to install Spell Research. 
+
+### Gameplay effect
+
+Installing SR as described below produces the following gameplay experience:
+
+- Spell research features for research, spell composition, crafting scrolls and tomes  
+- Spell research features for studying found artifacts and tomes  
+- Spell books still exist, and teach spells when read  
+- Spell books still for sale at the usual vendors  
+- Requiem perks still grant opportunity to learn two spells when taking magic perks  
+- Spell research materials can be found as loot (e.g. paper and quills in a cabinet in world)  
+
+With my custom requiem-5-patch patch (patch to requiem-5 patch):  
+- Spell research materials (paper, quills, ink, alembics, cauldrons) for sale at appropriate vendors  
+- Spell research loot can be found in some chests (tomes, artifacts)  
+
+In-game, you can learn spells by research or buying spell tomes. _Suggested:_ learn spells from tomes you find as loot, but never buy spells from vendors. Allows you to learn some new archetypes to study without breaking SR intent.
+
+Note: There is a mod to make spell books just teach SR archetypes rather than teaching spells. If you want to use this, you will have to patch HEAVILY for Requiem compatibilty. Not to be undertaken lightly!
+
+### Installing
+
 NOTE: Spell research must go above Requiem, then requiem, then requiem SR patches. 
 
 Add "RWTF - spell research" section above Requiem section in Mod Organizer.
 
 Add the folling mods to "RWTF - spell research" section:
-+ Spell Research 2.2.2
-+ Spell Research - Better Translation Tomes
-+ Spell Research Book (experience book addon)
-+ Spell Research Graphics 
-+ Patch for enhanced Graphics for SR experience book
-+ Spell Research Patch Compendium Redux Loose Version
++ [Spell Research 2.2.2](https://www.nexusmods.com/skyrimspecialedition/mods/20983)  
++ [Spell Research - Experience Book](https://www.nexusmods.com/skyrimspecialedition/mods/28355) (both "book v1.7.4" and "patch for enchanced graphics", two files)  
++ [Enhanced Graphics for SR Exp Book](https://www.nexusmods.com/skyrimspecialedition/mods/39947) 
++ [Spell Research - Convenience Add-On](https://www.nexusmods.com/skyrimspecialedition/mods/28953) (both "Spell Resarch Add-On" and "Spell Research Add-On Experience Book Patch, two files)  
++ Spell Research Patch Compendium Redux Loose Version  
 
-Add the following mods with other requeim patches:  
-+ Spell Research - Requiem 5 patch
+Intended load order (with .esp's in same order in Plugins list):  
+Spell Research  
+Spell Research - Experience Book  
+Enhanced Graphics for Spell Research  Experience Book  
+Patch for Enhanced Graphics for Spell Research Experience Book  
+Spell Research Convenience Add-On  
+Spell Resarch Add-On - Experience Book Patch  
 
-_Note:_
+The experience book with enhanced graphics makes a *big* difference to enjoying SR, and the Convenience Add-On is "quality of life".
 
-The SR requiem patch does *not* patch the vendors (staff) in the College of Winterhold to sell materials/tomes, and does not patch most "loot lists" to allow player to find SR-items in loot chests. 
+Add the following mod with other requeim patches:   
++ [Spell Research - Requiem 5 patch](https://www.nexusmods.com/skyrimspecialedition/mods/57178)  
 
-TODO: I'm building a custom patch to fix this, but it's not available yet.
+_Note:_ The SR requiem-5 patch does *not* patch the vendors (staff) in the College of Winterhold to sell materials/tomes, and does not patch most "loot lists" to allow player to find SR-items in loot chests. Doesn't prevent SR from working properly, but does limit you by removing things you're intended to be able to find/buy.
 
-Note: 
+TODO: I'm building a custom patch to fix this, but it's not uploaded anywhere yet.
 
-SR does not do any modifications to default spells system or spellbooks. You can buy spellbooks and learn spells if you want, bypassing the Spell Research spell learning process.
+*Re-run the Requitificator, as new "requiem for the indifferent.esp" patch is mandatory!
 
-SR can therefore be ignored completely, if you like, and player can just buy spellbooks as usual. The only effect is that you'll see some SR-related loot and items for sale ("Ancient Tome", etc).
+### In game: spell import
 
-There is a mod for "make spell books just show SR archetypes rather than teaching spell." If you want to use this, you will have to patch HEAVILY for Requiem compatibilty. Not to be undertaken lightly...
-
-_In Game_:
-
-When you start a new game, you must manually trigger spell import. Do this in the Alternate Start "mara statue room" when game starts, after initiating requiem install:
+When you start a new game, you *must manually trigger spell import*. Do this in the Alternate Start "Mara statue room" when game starts, after triggering requiem install.
 
 Go to MCM > Spell Research > Options > Import Spells
 
