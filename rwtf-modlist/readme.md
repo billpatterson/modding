@@ -12,6 +12,8 @@ This modlist is focused on [Requiem 5.3 "Around The Fire"](https://www.nexusmods
 
 [What's not in this modlist?](#whats-not-included)
 
+[Images](./images/)
+
 [Requirements](#requirements)
 
 [Installation](#installation)
