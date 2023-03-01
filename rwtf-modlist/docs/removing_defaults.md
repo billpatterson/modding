@@ -18,7 +18,8 @@ Inventory/spell screens, dialog boxes, etc:
 - A Matter of Time  
 
 Start menu + music:  
-- Main menu texture and music replacer - Windy Malukah
+- Vintage skyrim mainmenu replacer
+- Main menu music replacer - Malukah
 
 If you want to "clean reset" the UI, you'll want to remove those, as well as the Hud Alterations mods below.
 

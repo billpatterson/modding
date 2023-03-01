@@ -50,7 +50,7 @@ Notable mods from AVO:
 
 - Many, many texture / mesh improvement mods to make visuals look better
 - SKSE, bug fixes, unofficial patches for base game, scripting resources, etc
-- More HUD / SkyHUD / Infinity UI
+- More HUD / SkyHUD / SkyUI
 - Nemesis animations system
 - True directional movement
 - Rustic weathers
@@ -68,8 +68,11 @@ Notable additions:
 - Take notes - journal of the dragonborn
 - Accurate Realistic Fast Travel Time
 - Dynamic Things Alternative
+- HUD preset, main menu + music replacer
 
-Note that this modlist is distinct from AVO, and maintained separately. Changes to AVO will not affect this modlist, and any such changes will likely not be migrated into this modlist. 
+All of these additions (except Requiem) are easily removable, and [directions](./docs/removing_defaults.md) to do so are provided in install directions. Also, there are [directions](./docs/optional_additions.md) for additional things you may want to add (Missives, Spell Research, etc) that have been tested with this list.
+ 
+_Note:_ This modlist is distinct from AVO, and maintained separately. (Changes to AVO will not affect this modlist, and any such changes will likely not be migrated into this modlist. 
 
 Mods included: [full list](https://loadorderlibrary.com/lists/requiem-wtf)
 
