@@ -1,14 +1,31 @@
 
 # Removing Defaults
 
-A few of the installed mods are intended to be easily removed if you don't want them.
+Several of the installed mods are intended to be easily removed if you don't want them.
+
+This page describes things you can remove/disable without worrying about destabilizing the mod set.
 
 
-## HUD Alterations
+## HUD Mods
 
 Some default HUD changes are made by RWTF. You can/should edit them to your liking.
 
-### Removing
+### Base interface
+
+Inventory/spell screens, dialog boxes, etc:
+- SkyUI  
+- Dear Diary Dark Mode (white text)  
+- A Matter of Time  
+
+Start menu + music:  
+- Main menu texture and music replacer - Windy Malukah
+
+If you want to "clean reset" the UI, you'll want to remove those, as well as the Hud Alterations mods below.
+
+You don't need to re-run the Reqtificator when adding/removing any of these UI mods.
+
+ 
+### HUD Alterations
 
 To remove all HUD mods and start fresh to install your own... 
 

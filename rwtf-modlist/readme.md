@@ -29,6 +29,8 @@ Two groups of people:
 
 - People who want a "starting mod set for Requiem" without having to select and download a bunch of visual/graphics mods as a starting point. 
 
+Made to be playable on "ok" PC's (no heavy scripting, no ENB, etc).
+
 The main purpose of this mod is to provide a "just requiem, but in a nice-looking skyrim" experience. This means the mod intentionally leaves out or removes any gameplay changes that have different versions for different tastes (e.g. combat overhaul mods, College of Winterhold reworks, quest mechanics changes, etc).  
 
 The secondary purpose of this mod is to provide a platform for people to add their own requiem-compatible mods as extensions. An effort has been made to make sure that the base modset here allows allows other mods to be installed on top without causing widespread conflicts that need to be patched.
@@ -54,6 +56,7 @@ Notable mods from AVO:
 - Rustic weathers
 - CBBE
 - SmoothCam
+- Immersive Equipment Displays
 
 Notable additions:
 
@@ -65,7 +68,6 @@ Notable additions:
 - Take notes - journal of the dragonborn
 - Accurate Realistic Fast Travel Time
 - Dynamic Things Alternative
-- Immersive Equipment Displays
 
 Note that this modlist is distinct from AVO, and maintained separately. Changes to AVO will not affect this modlist, and any such changes will likely not be migrated into this modlist. 
 
