@@ -5,14 +5,14 @@ Several additional mods that have been tested as "add ons" and confirmed to work
 
 (Things the modlist author adds post-install for use in personal setup.)
 
-[Missives](#missives)
-[JK's Skyrim Exteriors](#jks-skyrim-exteriors)
-[Spell Research](#spell-research)
-[Misc](#misc)
-[College Overhaul](#college-overhaul)
-[Book Covers of Skyrim](#book-covers-of-skyrim) (information only)
-[WACCF/ACE/CCOR](#waccf-ace-ccor) (information only)
-[Campfire/Frostfall](#campfire/frostfall) (information only)
+[Missives](#missives)  
+[JK's Skyrim Exteriors](#jks-skyrim-exteriors)  
+[Spell Research](#spell-research)  
+[Misc](#misc)  
+[College Overhaul](#college-overhaul)  
+[Book Covers of Skyrim](#book-covers-of-skyrim) (information only)  
+[WACCF/ACE/CCOR](#waccf-ace-ccor) (information only)  
+[Campfire/Frostfall](#campfire/frostfall) (information only)  
 
 
 ## Missives
