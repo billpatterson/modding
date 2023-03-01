@@ -27,7 +27,7 @@ Note: "witcher board" gets overwritten/ignored if not at bottom of missives addo
 Add in "RWTF - Requiem" patches group:
 + [Requiem Missives extended patch](https://www.nexusmods.com/skyrimspecialedition/mods/62742?tab=files)
 
-Note: "Headhunter", "Requiem - RMB Patches - Headhunter - Missives"  
+Note: mod "Headhunter", mod "Requiem - RMB Patches - Headhunter - Missives"  
 Installing this popular companion to Missives caused obtaining quests from Steward & Inkeeper to behave oddly. Should be compatible, though, so experiment if you like. 
 
 Note: Carriage and Ferry Travel Overhaul mod causes conflict with Missives (carriage drivers as quest targets). There is a patch on nexusmods if you want to add CFTO, and if patched should be fine.
@@ -35,15 +35,17 @@ Note: Carriage and Ferry Travel Overhaul mod causes conflict with Missives (carr
 
 ## JK's Skyrim Exteriors
 
-+ [JK's Skyrim all in one](https://www.nexusmods.com/skyrimspecialedition/mods/6289)  
-Place mod/.esp in the "Settlements" section in Mod Organizer
-Note: needs to be before Missives, if using.
+Place in "Settlements section in Mod Organizer:  
++ [JK's Skyrim all in one](https://www.nexusmods.com/skyrimspecialedition/mods/6289)    
 
-+ [Missive JK Skyrim patch](https://www.nexusmods.com/skyrimspecialedition/mods/22380)
-After missives base mod, before missive add-ons and patches
+If using Missives, add in "RWTF - Misc" section:  
++ [Missive JK Skyrim patch](https://www.nexusmods.com/skyrimspecialedition/mods/22380)  
+After missives base mod, before missive add-ons and patches  
 
 Note: Carriage and Ferry Travel Overhaul mod has conflict with JK's Skyrim, but JK's Skyrim page has a patch file. 
 
+<BR> 
+<BR>
 
 ## Spell Research
 
