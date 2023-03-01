@@ -5,27 +5,14 @@ Several additional mods that have been tested as "add ons" and confirmed to work
 
 (Things the modlist author adds post-install for use in personal setup.)
 
-
-## Misc 
-
-+ Fog Mesh Remover  
-Put at very bottom (overwrites only retextures from "Little Things", safe to remove mid-game)
-
-+ Magic Sneak Attacks  
-Put with Honed Metal, Alt Start, etc
-
-+ Requiem - Magic Sneak Attacks  
-Put with Requiem patches
-
-+ No kill cams  
-
-
-## College Overhaul
-
-+ Magical college of Winterhold
-Put above requiem with Hone Metal, though does not cause conflicts with requiem.
-
-Note: had tried: Immersive College of Winterhold. Removed. Didn't like door auto-colsing (exacerbates "find person X" problem), and it edited vendor chests of college NPC's which requiem also does, causing conflict.
+[Missives](#missives)
+[JK's Skyrim Exteriors](#jks-skyrim-exteriors)
+[Spell Research](#spell-research)
+[Misc](#misc)
+[College Overhaul](#college-overhaul)
+[Book Covers of Skyrim](#book-covers-of-skyrim) (information only)
+[WACCF/ACE/CCOR](#waccf-ace-ccor) (information only)
+[Campfire/Frostfall](#campfire/frostfall) (information only)
 
 
 ## Missives
@@ -67,14 +54,14 @@ Spell Research tends to produce "needs a patch" for _ANY_ mod related to magic/s
 
 Installing SR as described below produces the following gameplay experience:
 
-- Spell research features for research, spell composition, crafting scrolls and tomes  
+- Spell research features for research, spell composition, crafting scrolls and tomes, analyzing ingredients  
 - Spell research features for studying found artifacts and tomes  
 - Spell books still exist, and teach spells when read  
 - Spell books still for sale at the usual vendors  
 - Requiem perks still grant opportunity to learn two spells when taking magic perks  
 - Spell research materials can be found as loot (e.g. paper and quills in a cabinet in world)  
 
-With my custom requiem-5-patch patch (patch to requiem-5 patch):  
+With my requiem-5-patch patch (supplementary patch to extend requiem-5 patch):  
 - Spell research materials (paper, quills, ink, alembics, cauldrons) for sale at appropriate vendors  
 - Spell research loot can be found in some chests (tomes, artifacts)  
 
@@ -88,31 +75,35 @@ NOTE: Spell research must go above Requiem, then requiem, then requiem SR patche
 
 Add "RWTF - spell research" section above Requiem section in Mod Organizer.
 
-Add the folling mods to "RWTF - spell research" section:
+Add the folling mods to "RWTF - spell research" section:  
 + [Spell Research 2.2.2](https://www.nexusmods.com/skyrimspecialedition/mods/20983)  
-+ [Spell Research - Experience Book](https://www.nexusmods.com/skyrimspecialedition/mods/28355) (both "book v1.7.4" and "patch for enchanced graphics", two files)  
-+ [Enhanced Graphics for SR Exp Book](https://www.nexusmods.com/skyrimspecialedition/mods/39947) 
-+ [Spell Research - Convenience Add-On](https://www.nexusmods.com/skyrimspecialedition/mods/28953) (both "Spell Resarch Add-On" and "Spell Research Add-On Experience Book Patch, two files)  
-+ Spell Research Patch Compendium Redux Loose Version  
++ [Spell Research - Experience Book](https://www.nexusmods.com/skyrimspecialedition/mods/28355) (just "book v1.7.4")  
++ [Enhanced Graphics for SR Exp Book](https://www.nexusmods.com/skyrimspecialedition/mods/39947)  
++ [Spell Research - Convenience Add-On](https://www.nexusmods.com/skyrimspecialedition/mods/28953) (just "Spell Resarch Add-On")  
++ [Spell Research - Spell Composing](https://www.nexusmods.com/skyrimspecialedition/mods/65756)  
++ [Spell Research - Ultimate Add-On Patch](https://www.nexusmods.com/skyrimspecialedition/mods/66538) (combined patches for all the SR extension/tweak mods above)
+
 
 Intended load order (with .esp's in same order in Plugins list):  
 Spell Research  
 Spell Research - Experience Book  
 Enhanced Graphics for Spell Research  Experience Book  
-Patch for Enhanced Graphics for Spell Research Experience Book  
-Spell Research Convenience Add-On  
-Spell Resarch Add-On - Experience Book Patch  
+Spell Research - Convenience Add-On  
+Spell Research - Spell Composing  
+Spell Research - Ultimate Add-On Patch  
 
-The experience book with enhanced graphics makes a *big* difference to enjoying SR, and the Convenience Add-On is "quality of life".
+The experience book with enhanced graphics makes a *big* difference to enjoying SR, the Convenience Add-On is "quality of life", spell-composing UI is somewhere in the middle.
 
+_Requiem Patch_:  
 Add the following mod with other requeim patches:   
 + [Spell Research - Requiem 5 patch](https://www.nexusmods.com/skyrimspecialedition/mods/57178)  
 
-_Note:_ The SR requiem-5 patch does *not* patch the vendors (staff) in the College of Winterhold to sell materials/tomes, and does not patch most "loot lists" to allow player to find SR-items in loot chests. Doesn't prevent SR from working properly, but does limit you by removing things you're intended to be able to find/buy.
+_Note:_ The SR requiem-5 patch does *not* patch the vendors (mages) in the College of Winterhold to sell materials/tomes, and does not patch most "loot lists" to allow player to find SR-items in loot chests. Doesn't prevent SR from working properly, but does limit you by removing things you're intended to be able to find/buy.
 
 TODO: I'm building a custom patch to fix this, but it's not uploaded anywhere yet.
 
-*Re-run the Requitificator, as new "requiem for the indifferent.esp" patch is mandatory!
+*Re-run the Requitificator,* as a new "requiem for the indifferent.esp" patch is required now!
+
 
 ### In game: spell import
 
@@ -122,7 +113,29 @@ Go to MCM > Spell Research > Options > Import Spells
 
 Let it run (lengthy) until you get final confirmation.
 
-The pell import process is largely invisible, with just occasional message text. It's not done until you see the "Spell Research: All Spells Imported - OK" dialog! Be patient.
+The spell import process is largely invisible, with just occasional message text. It's not done until you see the "Spell Research: All Spells Imported - OK" dialog! Be patient.
+
+
+## Misc 
+
++ Fog Mesh Remover  
+Put at very bottom (overwrites only retextures from "Little Things", safe to remove mid-game)
+
++ Magic Sneak Attacks  
+Put with Honed Metal, Alt Start, etc
+
++ Requiem - Magic Sneak Attacks  
+Put with Requiem patches
+
++ No kill cams  
+
+
+## College Overhaul
+
++ Magical college of Winterhold
+Put above requiem with Hone Metal, though does not cause conflicts with requiem.
+
+Note: had tried: Immersive College of Winterhold. Removed. Didn't like door auto-colsing (exacerbates "find person X" problem), and it edited vendor chests of college NPC's which requiem also does, causing conflict.
 
 
 ## Book Covers of Skyrim
@@ -140,7 +153,7 @@ There is currently no requiem patch for the newer BCS-Updated mod.
 Leaving "Book Covers Skyrim Updated" and putting requiem "last" in load order means some BCS-Updated changes will get inored, which is fine. 
 
 
-## WACCF /ACE / CCOR
+## WACCF/ACE/CCOR
 
 These mods are *intentionally not included* in the modlist.
 
@@ -148,7 +161,7 @@ Install if you like, but note [this comment](https://www.reddit.com/r/skyrimrequ
 
 Also, these mods are "patch generators" meaning they cause a need for patching due to conflicts with many other mods. They're good mods, you may want them, but they're intentionally left out of this modlist to reduce complications. 
 
-## Campfire / Frostfall
+## Campfire/Frostfall
 
 As of this writing, these are being left out due to (a) changes not everyone may want, (b) need for patching with other mods users may want to add in, and (c) issues with current releases (particularly MCM/SKSE issues with interface to change settings). 
 
