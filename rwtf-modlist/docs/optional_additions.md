@@ -102,9 +102,11 @@ Add the following mod with other requeim patches:
 
 _Note:_ The SR requiem-5 patch does *not* patch the vendors (mages) in the College of Winterhold to sell materials/tomes, and does not patch most "loot lists" to allow player to find SR-items in loot chests. Doesn't prevent SR from working properly, but does limit you by removing things you're intended to be able to find/buy.
 
-TODO: I'm building a custom patch to fix this, but it's not uploaded anywhere yet.
+Patch that with:  
++ [Custom Patch](https://www.nexusmods.com/skyrimspecialedition/mods/86078/)
 
-*Re-run the Requitificator,* as a new "requiem for the indifferent.esp" patch is required now!
+
+*Re-run the Reqtificator,* as a new "requiem for the indifferent.esp" patch is required now!
 
 
 ### In game: spell import
@@ -117,8 +119,12 @@ Let it run (lengthy) until you get final confirmation.
 
 The spell import process is largely invisible, with just occasional message text. It's not done until you see the "Spell Research: All Spells Imported - OK" dialog! Be patient.
 
+<BR> 
+<BR>
 
 ## Misc 
+
+Some small mods you might want that are compatible: 
 
 + Fog Mesh Remover  
 Put at very bottom (overwrites only retextures from "Little Things", safe to remove mid-game)
@@ -131,14 +137,19 @@ Put with Requiem patches
 
 + No kill cams  
 
+<BR> 
+<BR>
 
 ## College Overhaul
 
 + Magical college of Winterhold
 Put above requiem with Hone Metal, though does not cause conflicts with requiem.
 
-Note: had tried: Immersive College of Winterhold. Removed. Didn't like door auto-colsing (exacerbates "find person X" problem), and it edited vendor chests of college NPC's which requiem also does, causing conflict.
+Note: had tried: Immersive College of Winterhold. Removed. Didn't like door auto-closing (exacerbates "find trainer mage X" difficulty), and it edited vendor chests of college NPC's (which requiem also does) causing conflicts.
 
+
+<BR> 
+<BR>
 
 ## Book Covers of Skyrim
 
@@ -154,6 +165,8 @@ There is currently no requiem patch for the newer BCS-Updated mod.
 
 Leaving "Book Covers Skyrim Updated" and putting requiem "last" in load order means some BCS-Updated changes will get inored, which is fine. 
 
+<BR> 
+<BR>
 
 ## WACCF/ACE/CCOR
 
@@ -162,6 +175,9 @@ These mods are *intentionally not included* in the modlist.
 Install if you like, but note [this comment](https://www.reddit.com/r/skyrimrequiem/comments/101g9i3/requiem_53_waccfaceccor_patches_updated) from the Requiem patch author, noting that future versions may not be patched.
 
 Also, these mods are "patch generators" meaning they cause a need for patching due to conflicts with many other mods. They're good mods, you may want them, but they're intentionally left out of this modlist to reduce complications. 
+
+<BR> 
+<BR>
 
 ## Campfire/Frostfall
 
