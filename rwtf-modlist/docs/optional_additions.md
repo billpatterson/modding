@@ -31,28 +31,31 @@ Note: had tried: Immersive College of Winterhold. Removed. Didn't like door auto
 ## Missives
 
 Add in "RWTF - Misc" section:
-+ Missives (base mod)
-+ Missives notes retexture
-+ Missives - Solstheim Patch SE
-+ patch for Missives worldspace (Solstheim)
-+ Missives the witcher board
-(Put after JK's Skyrim mod, if using)
-
++ [Missives](https://www.nexusmods.com/skyrimspecialedition/mods/17576) (base mod)
++ [Missives notes retexture](https://www.nexusmods.com/skyrimspecialedition/mods/46201)
++ [Missives - Solstheim Patch SE](https://www.nexusmods.com/skyrimspecialedition/mods/26788)
++ [Missives the witcher board](https://www.nexusmods.com/skyrimspecialedition/mods/47097)
 Note: "witcher board" gets overwritten/ignored if not at bottom of missives addons list.
+
+Add in "RWTF - Requiem" patches group:
++ [Requiem Missives extended patch](https://www.nexusmods.com/skyrimspecialedition/mods/62742?tab=files)
 
 Note: "Headhunter", "Requiem - RMB Patches - Headhunter - Missives"  
 Installing this popular companion to Missives caused obtaining quests from Steward & Inkeeper to behave oddly. Should be compatible, though, so experiment if you like. 
 
-Note: Carriage and Ferry Travel Overhaul mod causes conflict with Missives (carriage drivers as quest targets). There is a patch on nexusmods if you want to add CFTO.
+Note: Carriage and Ferry Travel Overhaul mod causes conflict with Missives (carriage drivers as quest targets). There is a patch on nexusmods if you want to add CFTO, and if patched should be fine.
 
 
 ## JK's Skyrim Exteriors
 
-+ JK's Skyrim all in one  
++ [JK's Skyrim all in one](https://www.nexusmods.com/skyrimspecialedition/mods/6289)  
 Place mod/.esp in the "Settlements" section in Mod Organizer
+Note: needs to be before Missives, if using.
 
-+ Missive JK Skyrim  (patch Missives object placement into JK Skyrim)
++ [Missive JK Skyrim patch](https://www.nexusmods.com/skyrimspecialedition/mods/22380)
 After missives base mod, before missive add-ons and patches
+
+Note: Carriage and Ferry Travel Overhaul mod has conflict with JK's Skyrim, but JK's Skyrim page has a patch file. 
 
 
 ## Spell Research
@@ -94,7 +97,7 @@ Go to MCM > Spell Research > Options > Import Spells
 
 Let it run (lengthy) until you get final confirmation.
 
-The pell import process is largely invisible, with just occasional message text. It's not done until you see the "Spell Research: All Spells Imported  <OK>" dialog! Be patient.
+The pell import process is largely invisible, with just occasional message text. It's not done until you see the "Spell Research: All Spells Imported - OK" dialog! Be patient.
 
 
 ## Book Covers of Skyrim
