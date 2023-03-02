@@ -63,9 +63,10 @@ Installing SR as described below produces the following gameplay experience:
 - Requiem perks still grant opportunity to learn two spells when taking magic perks  
 - Spell research materials can be found as loot (e.g. paper and quills in a cabinet in world)  
 
-With my requiem-5-patch patch (supplementary patch to extend requiem-5 patch):  
+With supplementary patch also:  
 - Spell research materials (paper, quills, ink, alembics, cauldrons) for sale at appropriate vendors  
 - Spell research loot can be found in some chests (tomes, artifacts)  
+- Spell research import scripts reliably trigger import of Requiem spells so SR recognizes them
 
 In-game, you can learn spells by research or buying spell tomes. _Suggested:_ learn spells from tomes you find as loot, but never buy spells from vendors. Allows you to learn some new archetypes to study without breaking SR intent.
 
@@ -99,8 +100,6 @@ The experience book with enhanced graphics makes a *big* difference to enjoying 
 _Requiem Patch_:  
 Add the following mod with other requeim patches:   
 + [Spell Research - Requiem 5 patch](https://www.nexusmods.com/skyrimspecialedition/mods/57178)  
-
-_Note:_ The SR requiem-5 patch does *not* patch the vendors (mages) in the College of Winterhold to sell materials/tomes, and does not patch most "loot lists" to allow player to find SR-items in loot chests. Doesn't prevent SR from working properly, but does limit you by removing things you're intended to be able to find/buy.
 
 Patch that with:  
 + [Custom Patch](https://www.nexusmods.com/skyrimspecialedition/mods/86078/)
