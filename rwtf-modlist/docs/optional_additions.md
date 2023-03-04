@@ -80,7 +80,9 @@ Add "RWTF - spell research" section above Requiem section in Mod Organizer.
 
 Add the folling mods to "RWTF - spell research" section:  
 + [Spell Research 2.2.2](https://www.nexusmods.com/skyrimspecialedition/mods/20983)  
-+ [Spell Research - Experience Book](https://www.nexusmods.com/skyrimspecialedition/mods/28355) (just "book v1.7.4")  
++ [Spell Research - Experience Book](https://www.nexusmods.com/skyrimspecialedition/mods/28355)  
+++ Patch for Enhanced Graphics for Spell Research Experience Book v1.7.4  
+++ SpellResearch_Book v1.7.4 - ESP  
 + [Enhanced Graphics for SR Exp Book](https://www.nexusmods.com/skyrimspecialedition/mods/39947)  
 + [Spell Research - Convenience Add-On](https://www.nexusmods.com/skyrimspecialedition/mods/28953) (just "Spell Resarch Add-On")  
 + [Spell Research - Spell Composing](https://www.nexusmods.com/skyrimspecialedition/mods/65756)  
@@ -91,6 +93,7 @@ Intended load order (with .esp's in same order in Plugins list):
 Spell Research  
 Spell Research - Experience Book  
 Enhanced Graphics for Spell Research  Experience Book  
+Spell Research - Experience Book - Enhanced graphics patch
 Spell Research - Convenience Add-On  
 Spell Research - Spell Composing  
 Spell Research - Ultimate Add-On Patch  
@@ -118,34 +121,76 @@ Let it run (lengthy) until you get final confirmation.
 
 The spell import process is largely invisible, with just occasional message text. It's not done until you see the "Spell Research: All Spells Imported - OK" dialog! Be patient.
 
-<BR> 
-<BR>
-
-## Misc 
-
-Some small mods you might want that are compatible: 
-
-+ Fog Mesh Remover  
-Put at very bottom (overwrites only retextures from "Little Things", safe to remove mid-game)
-
-+ Magic Sneak Attacks  
-Put with Honed Metal, Alt Start, etc
-
-+ Requiem - Magic Sneak Attacks  
-Put with Requiem patches
-
-+ No kill cams  
 
 <BR> 
 <BR>
 
 ## College Overhaul
 
-+ Magical college of Winterhold
-Put above requiem with Hone Metal, though does not cause conflicts with requiem.
+_Recommended_: Add a new section in Mod Organizer for college overhaul/changes: "RWTF - Winterhold College". Place above Requiem and Spell Research (if using) sections.
 
-Note: had tried: Immersive College of Winterhold. Removed. Didn't like door auto-closing (exacerbates "find trainer mage X" difficulty), and it edited vendor chests of college NPC's (which requiem also does) causing conflicts.
 
+### Suggested for all:  
+
+[College of Winterhold Quest Start Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/53817)  
+- Fixes obscure potential bugs in quest activation.  
+- Alt version in installer if you install Cutting Room Floor, so if using instal CRF first.  
+- No conflicts with Requiem, Spell Research, other college overhauls mentioned here. 
+
+Other: there are several "quest fix/tweak" type mods available for college entry and questlines. Which you might want may depend on what other college mods, if any, you install... so there's no default suggestion. None are required, as college entry/quests still work in plain default setup.
+
+Suggested small fix:  
+[Better College Application](https://www.nexusmods.com/skyrimspecialedition/mods/5272)  
+
+
+### College overhauls - alternatives
+
+_Most compatible:_  
+[Magical college of Winterhold](https://www.nexusmods.com/skyrimspecialedition/mods/1539)  
+- No patch required (compaible with Requiem and Spell Research)  
+- Good update to make college better without complications  
+
+_98% compatible unpatched:_  
+[Obscure's College of Winterhold](https://www.nexusmods.com/skyrimspecialedition/mods/20514)  
+- *Modlist author uses this*  
+- _Requiem:_ has a few very minor lighting and sound changes that requiem reverts. A couple books placed by requiem on Urag's desk end up on the floor.  
+- _Spell Research_: includes a Spell Research patch with a few very minor compatibility edits.  
+- _Other mods_: can cause conflicts with anything that changes collge. Many patches included.  
+
+Tips for OCW:  
+- _Room storage:_ safe storage furniture appears after you talk to Tolfdir  
+- _Shrine of Julianos:_ in Hall of Accumen, second floor, Sameth's Quarters  
+- _Safe storage:_ small barrel and three sacks next to alchemy table and cookpot (above your room) are "safe" (non respawning) containers; large barrel is NOT safe
+- _Navigation:_ use wall plaques to find trainers; use upper walkway for easier Arcaneum access  
+
+
+_Patched Compatible_:  
+[Immersive College of Winterhold](https://www.nexusmods.com/skyrimspecialedition/mods/17004?tab=files)  
+- Patch is in [Requiem Patch Central](https://www.nexusmods.com/skyrimspecialedition/mods/64410)  
+- No Julianos shrine anywhere in college! (confirmed in xEdit, Form ID: D9885)  
+- Has auto-closing (exacerbates "find trainer mage" difficulty)  
+- Edits vendor chests of college NPC's (which both Requiem and Spell Research do, as well as Requiem Small Tweaks NPC tweak mod). Compatibility and patching issue.  
+
+
+<BR> 
+<BR>
+
+
+## Misc 
+
+Some small mods you might want that are compatible: 
+
++ [Interior Floating Fog Remover](https://www.nexusmods.com/skyrimspecialedition/mods/4298)  
++ [No interior fog](https://www.nexusmods.com/skyrimspecialedition/mods/5422)  
+Put at very bottom (overwrites only retextures from "Little Things", safe to remove mid-game)  
+
++ [Magic Sneak Attacks](https://www.nexusmods.com/skyrimspecialedition/mods/67613)  
+Put with Honed Metal, Alt Start, etc
+
++ [Requiem - Magic Sneak Attacks](https://www.nexusmods.com/skyrimspecialedition/mods/78519)  
+Put with Requiem patches
+
++ No kill cams  
 
 <BR> 
 <BR>

@@ -137,6 +137,7 @@ zzjay's Horse Overhaul
 
 = Settlements =
 Water In Wells  (generating warnings in DynDoLod processing)
+More Wooden Bridges
 
 = Furniture & Clutter =
 (no changes)
@@ -173,9 +174,29 @@ Player Spell (and weapon) lighting
 Golden saint armory revamped - CBBE Patches
 BodySlide and Outfit Studio
 Nordic Feel - a realistic bodyslide preset
+Expressive Facegen Morphs SE
+Expressive Facial Animation -Female Edition-
+Expressive Facial Animation -Male Edition-
+Tempered Skins for Males - Dressed Version
+Mature Skin 2 CBBE (SE)
+SC - Mature Skin Specular
+Vanilla Makeup HD - HD Racial Colors and Makeup for all Races and Genders - SE
 
 = NPC Overhauls =
 Complete NPC overhaul
+M'aiq the Alfiq
+Whiterun Hold Refine (NPC Appearance Overhaul - Standalone)
+Markarth Side Refine (NPC Appearance Overhaul - Standalone - Muiri - Eola)
+Housecarl Companions Refine (Unique Follower Perks - NPC Appearance Overhaul - Lydia)
+Stormcloak Rebellion Refine (Civil War NPC Appearance Overhaul - Standalone - Ulfric)
+Anima Nera - SerketHetyt's Serana Overhaul
+The Wolven Widow - SerketHetyt's Elisif Overhaul
+Children of the Pariah - Orc NPC Overhaul
+Children of the Pariah - Orc NPC Overhaul - Closed Mouths Tweak
+Skyrim Children Refine (NPC Appearance Overhaul - Eye Colors - Skin Details - Fixes)
+Prince and The Pauper Refine
+
+
 
 = Late Loaders =
 Ambiance - a Vanilla+ Ambient Lighting Overhaul
