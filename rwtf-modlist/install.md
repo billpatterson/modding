@@ -45,15 +45,14 @@ Wait for wabbajack to download all needed mods (can take a while; a paid Nexusmo
 
 The modlist is now installed and ready to play. 
 
-Run ModOrganizer.exe in the install directory, choose "SKSE" from the list next to the Run button in the upper right, and click Run. See the _New Game - Do This_ section for steps to take to start a new game.
+Run ModOrganizer.exe in the install directory, choose "SKSE" from the list next to the Run button in the upper right, and click Run.
 
 The "reqtificator" has already been installed and run, the "requiem for the indifferent.esp" patch as been generated, etc. You don't need to follow the requiem install directions; it's been done for you. 
 
-When you start a new game, you need to do some initialization for your character, and may want to make some in-game MCM settings changes. 
+When you start a new game, **you need to do some initialization for your character, and may want to make some in-game MCM settings changes:** 
 
-See [new game setup](./docs/new_game_setup.md) for some suggestions. 
+- See [new game setup](./docs/new_game_setup.md) for suggestions.  
 
-If you're an experienced Requiem/Alt-Start player you can ignore this.  
 
 
 ## Removing Optional Mods

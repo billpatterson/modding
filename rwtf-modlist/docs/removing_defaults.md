@@ -3,21 +3,21 @@
 
 Several of the installed mods are intended to be easily removed if you don't want them.
 
-This page describes things you can remove/disable without worrying about destabilizing the mod set.
+This page describes installed mods that you can remove/disable without worrying about destabilizing the mod set.
 
 
-## HUD Mods
+## HUD and UI Mods
 
-Some default HUD changes are made by RWTF. You can/should edit them to your liking.
+Some default HUD changes are made by RWTF. You can edit them to your liking by adding/removing mods.
 
-### Base interface
+### General UI Changes
 
-Inventory/spell screens, dialog boxes, etc:
+These mods affect inventory/spell screens, dialog boxes, etc:
 - SkyUI  
 - Dear Diary Dark Mode (white text)  
 - A Matter of Time  
 
-Start menu + music:  
+These mods change start menu + music:  
 - Vintage skyrim mainmenu replacer
 - Main menu music replacer - Malukah
 
@@ -26,12 +26,9 @@ If you want to "clean reset" the UI, you'll want to remove those, as well as the
 You don't need to re-run the Reqtificator when adding/removing any of these UI mods.
 
  
-### HUD Alterations
+### HUD Changes
 
-To remove all HUD mods and start fresh to install your own... 
-
-Deactivate or unistall from "RWTF - HUD" section:
-
+To remove all HUD mods and start fresh to install your own, Deactivate or unistall from "RWTF - HUD" section:  
 - moreHUD SE  
 - moreHUD inventory edition  
 - SkyHUD  
@@ -39,15 +36,15 @@ Deactivate or unistall from "RWTF - HUD" section:
 
 No other changes necessary. Replace with your preferred HUD setup.
 
-Note that *SmoothCam has some HUD settings!* See in-game MCM if keeping SmoothCam.
+Note that *SmoothCam mod has some HUD settings!* See Smooth Cam in-game MCM if leaving this installed.
 
 Re-running Reqtificator not necessary in this case, but doesn't hurt!
 
-### Tweaking
+### HUD, Tweaking 
 
-You can leave the existing mods and tweak behavior by editing:
+If you "mostly like" the HUD but want to tweak it, you can leave the HUD mods and edit:
 
-  .../interface/skyhud/skyhud.txt 
+  <skyrim data folder>/interface/skyhud/skyhud.txt 
 
 Note that this file may be provided by several mods, so finding the "winning" copy to edit is important!
 
@@ -62,7 +59,7 @@ In the default setup, Dear Diary Dark Mode comes last, so its copy of the file "
 
    <mod organizer folder>/overwrite/interface/skyhud/skyhud.txt
    
-Freely edit that copy to have all your changes overwrite any copy of the file provided by mods.
+Edit that copy to have all your changes overwrite any copy of the file provided by mods.
 
 See SkyHUD nexusmods page for information about settings you can alter. 
 
