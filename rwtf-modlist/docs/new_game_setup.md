@@ -58,3 +58,36 @@ If using _Spell Research_, hotkeys are often useful:
 - Spell Research > Options > enable hotkey > Home  
 - Spell Research Book Options > enable hotkey > End  
 
+_Sound_:  
+Settings > Audio  
+True Storms adds some volume controls for rain and thunder. You may want to turn down the defaults to better suit other Skyrim volume settings. In particular, the "rain while inside buidings" sound is a bit loud.
+
+
+## Immersive Equipment Displays
+
+_Activation Key:_
+
+IED uses Backspace key as activator, by default. This is usually fine, but in Enchanting when renaming an item it can make text editing frustrating as the shortcut key isn't blocked here. 
+
+Suggested: change the key to apostrophe or backslash or something similar.
+
+To do that, you need to edit the mod's .ini file, and you need the right key code.
+
+.ini file: in Animations section in Mod Organizer, right click on Immersive Equipment Displays, choose Open In Explorer. Look in SKSE\plugins\ folder for ImmersiveEquipmentDisplays.ini to edit.
+
+Key codes: get from website noted in that .ini file:   https://www.creationkit.com/index.php?title=Input_Script#DXScanCodes
+
+In .ini file, change this line to set your new activation key:  
+ToggleKeys=0x0E
+
+Semicolon:  
+ToggleKeys=0x27
+
+Apostrophe:  
+ToggleKeys=0x28
+
+Backslash:  
+ToggleKeys=0x2B  
+
+F6:  
+ToggleKeys=0x40  

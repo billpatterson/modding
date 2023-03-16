@@ -20,7 +20,6 @@ In MO2, create new separator "RWTF - requiem" above "finishing line output" sect
 === Requiem Tweaks ===
 
 Add in "+ Requiem" section in MO2, below Requiem:
-+ Requiem - Resist and Regen Tweak (Requiem - Noxcrab's Tweaks in Nexusmods)
 + Requiem - Small Tweaks SE mods: Knockdown Tweak
 
 Note: other Small Tweaks mods make more intense changes not all players may like, and NPC Tweaks in particular may cause conflicts with other mods that modify the College vendors, some enemies, etc.
@@ -89,6 +88,9 @@ Put the two AOS patch .esp's at top of Requiem section (so after other mods, bef
 Note: required Sound Record Distributor already included in AVO base
       (do not remove that if removing AOS/ISC; needed for other AVO mods)
 Note: requiem patch central includes patch for this
+
++ Immersive Sounds Compendium Drinking Sound Fix
+(fixes silent-sound bug)
 
 
 === HUD ===

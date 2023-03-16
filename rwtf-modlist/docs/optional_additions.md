@@ -5,14 +5,43 @@ Several additional mods that have been tested as "add ons" and confirmed to work
 
 (Things the modlist author adds post-install for use in personal setup.)
 
+[Misc](#misc)  
 [Missives](#missives)  
 [JK's Skyrim Exteriors](#jks-skyrim-exteriors)  
 [Spell Research](#spell-research)  
-[Misc](#misc)  
 [College Overhaul](#college-overhaul)  
 [Book Covers of Skyrim](#book-covers-of-skyrim) (information only)  
 [WACCF/ACE/CCOR](#waccf-ace-ccor) (information only)  
 [Campfire/Frostfall](#campfire/frostfall) (information only)  
+
+
+## Misc 
+
+Some small mods you might want that are compatible: 
+
++ [AE (SE) Mesh Replacer - less blinding summoning effects](https://www.nexusmods.com/skyrimspecialedition/mods/68416)  
++ [Divine Conjuration Audio Sound](https://www.nexusmods.com/skyrimspecialedition/mods/13512)  
+Put with Misc mods
+
++ [Simple Horse SE](https://www.nexusmods.com/skyrimspecialedition/mods/12650)  
+Put with Misc, adds horse-summon-to-player power  
+(Obviously don't use if you plan to intall Convenient Horses or similar)  
+
++ [Interior Floating Fog Remover](https://www.nexusmods.com/skyrimspecialedition/mods/4298)  
+Put at very bottom (meshes only, overwrites only retextures from "Little Things", safe to remove mid-game)  
+
++ [Magic Sneak Attacks](https://www.nexusmods.com/skyrimspecialedition/mods/67613)  
+Put with Honed Metal, Alt Start, etc
+
++ [Requiem - Magic Sneak Attacks](https://www.nexusmods.com/skyrimspecialedition/mods/78519)  
+Put with Requiem patches
+
++ No kill cams  
+
+Waring: avoid anything that affects music and lighting unless you check carefully and understand what it's changing. Requiem has records for many interior Cells, and music/lighting uses the same records. 
+
+<BR> 
+<BR>
 
 
 ## Missives
@@ -171,26 +200,6 @@ _Patched Compatible_:
 - Has auto-closing (exacerbates "find trainer mage" difficulty)  
 - Edits vendor chests of college NPC's (which both Requiem and Spell Research do, as well as Requiem Small Tweaks NPC tweak mod). Compatibility and patching issue.  
 
-
-<BR> 
-<BR>
-
-
-## Misc 
-
-Some small mods you might want that are compatible: 
-
-+ [Interior Floating Fog Remover](https://www.nexusmods.com/skyrimspecialedition/mods/4298)  
-+ [No interior fog](https://www.nexusmods.com/skyrimspecialedition/mods/5422)  
-Put at very bottom (overwrites only retextures from "Little Things", safe to remove mid-game)  
-
-+ [Magic Sneak Attacks](https://www.nexusmods.com/skyrimspecialedition/mods/67613)  
-Put with Honed Metal, Alt Start, etc
-
-+ [Requiem - Magic Sneak Attacks](https://www.nexusmods.com/skyrimspecialedition/mods/78519)  
-Put with Requiem patches
-
-+ No kill cams  
 
 <BR> 
 <BR>
